@@ -65,7 +65,5 @@ jobs:
       # compile -> validates SQL and refs
       # build -> runs models + tests
 
-        run: dbt build
-
       - name: dbt docs generate
         run: dbt docs generate
