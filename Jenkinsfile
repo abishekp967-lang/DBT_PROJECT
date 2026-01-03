@@ -12,7 +12,7 @@ pipeline {
     // Non-secret config
     SNOWFLAKE_WAREHOUSE = "COMPUTE_WH"
     SNOWFLAKE_DATABASE  = "OLIST"
-    SNOWFLAKE_SCHEMA    = "ANALYTICS_CI"
+    SNOWFLAKE_SCHEMA    = "OLIST_CI"
     DBT_THREADS         = "4"
     DBT_TARGET          = "prod"
   }
